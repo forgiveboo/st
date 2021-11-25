@@ -1,4 +1,5 @@
 /* See LICENSE for license details. */
+#include <X11/X.h>
 #include <errno.h>
 #include <math.h>
 #include <limits.h>
@@ -704,6 +705,10 @@ brelease(XEvent *e)
 
 	if (mouseaction(e, 1))
 		return;
+  
+  if (e->xbutton.button == Button3)
+    selpaste(NULL);
+
 	if (e->xbutton.button == Button1)
 		mousesel(e, 1);
 }
