@@ -13,6 +13,7 @@ static char *font2[] = {
  "Inconsolata for Powerline:pixelsize=24:antialias=true:autohint=true",
  "DejaVu Sans Mono for Powerline:pixelsize=24:antialias=true:autohint=true",
  "Fira Code Nerd Font:pixelsize=24:antialias=true:autohint=true",
+ "DejaVu Sans Mono Nerd Font:pixelsize=24:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
