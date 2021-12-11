@@ -10,10 +10,10 @@ static char *font = "Source Code Pro:pixelsize=24:antialias=true:autohint=true";
 //static char *font = "Sauce Code Pro Nerd Font:pixelsize=24:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
- "Inconsolata for Powerline:pixelsize=24:antialias=true:autohint=true",
- "DejaVu Sans Mono for Powerline:pixelsize=24:antialias=true:autohint=true",
- "Fira Code Nerd Font:pixelsize=24:antialias=true:autohint=true",
- "DejaVu Sans Mono Nerd Font:pixelsize=24:antialias=true:autohint=true"
+ "Inconsolata for Powerline:pixelsize=22:antialias=true:autohint=true",
+ "DejaVu Sans Mono for Powerline:pixelsize=22:antialias=true:autohint=true",
+ "Fira Code Nerd Font:pixelsize=22:antialias=true:autohint=true",
+ "DejaVu Sans Mono Nerd Font:pixelsize=22:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
